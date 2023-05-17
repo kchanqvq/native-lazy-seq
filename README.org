@@ -1,0 +1,1 @@
+This system provides class ~lazy-seq~, which uses the user-extensible sequence protocol so that functions on generic CL sequence also works on ~lazy-seq~.
