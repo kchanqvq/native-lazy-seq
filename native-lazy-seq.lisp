@@ -1,9 +1,9 @@
-(uiop:define-package :native-lazyseq
+(uiop:define-package :native-lazy-seq
     (:use #:cl)
   (:import-from #:iter #:iter #:while #:sum)
   (:export #:lazy-seq #:generator #:with-iterators))
 
-(in-package :native-lazyseq)
+(in-package :native-lazy-seq)
 (serapeum:eval-always
   (trivial-package-local-nicknames:add-package-local-nickname
    "PORTSEQ" "ORG.SHIRAKUMO.TRIVIAL-EXTENSIBLE-SEQUENCES"))
